@@ -1,0 +1,70 @@
+body {
+  font: 16px/1.5 sans-serif;
+  margin: 0;
+}
+
+#menu {
+  padding: 10px;
+  overflow: hidden;
+}
+
+#menu a {
+  display: block;
+  float: left;
+  width: 101px;
+  text-align: center;
+  height: 20px;
+  margin-right: 4px;
+  font-size: 13px;
+  padding-top: 2px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #bbb;
+  font-weight: bold;
+  background-color: #eee;
+  color: #222;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+#menu a:hover {
+  margin-top: 1px;
+  border-bottom-width: 2px;
+}
+
+#menu a:active {
+  margin-top: 2px;
+  border-bottom-width: 1px;
+}
+
+#display {
+  background-color: black;
+  border-top: 1px solid #666;
+  position: relative;
+}
+
+#position {
+  position: relative;
+  left: 84px;
+  top: -1px;
+  width: 10px;
+}
+
+#position .handle {
+  width: 10px;
+  height: 12px;
+  position: relative;
+  left: -6px;
+  border-radius: 19px 19px 41px 41px;
+  border: 1px solid #666;
+  border-bottom-color: #333;
+  border-left-color: #777;
+  background-color: #222;
+}
+
+#position .line {
+  width: 1px;
+  height: 230px;
+  background-color: red;
+  position: relative;
+  top: -1px;
+}
