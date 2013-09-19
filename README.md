@@ -2,7 +2,7 @@
 
 A small css experiment, no images involved.
 
-[Try it out.](https://juliangruber.github.io/tuna).
+[Try it out](https://juliangruber.github.io/tuna).
 
 ![screenshot](screenshot.png)
 
